@@ -51,11 +51,6 @@ a {
   text-decoration: none;
 }
 
-.container.large {
-  width: 100%;
-  margin: auto;
-}
-
 .container.small {
   width: 60%;
 }
@@ -83,6 +78,10 @@ a {
   float: right;
 }
 
+.ib, nav ul, .logo, .first-btn, .trial, .faq:hover .appear {
+  display: inline-block;
+}
+
 .btn.color {
   background-color:dodgerblue;
   color: white;
@@ -92,6 +91,7 @@ a {
 }
 
 .btn.white {
+  display: inline-block;
   background-color: white;
   color: black;
   padding: 8px 24px;
@@ -117,7 +117,7 @@ a {
 
 .col-five {
   width: 30%;
-  height: 450px;
+  height: 366px;
 }
 
 .col-six {
@@ -221,10 +221,6 @@ nav {
   box-shadow: 2px 2px 2px #ededed;
 }
 
-nav ul, .logo, .first-btn {
-  display: inline-block;
-}
-
 .drop-left {
   margin-left: 50px;
 }
@@ -258,14 +254,14 @@ nav li:hover {
 }
 
 .jumbo-title {
-  font-size: 72px;
+  font-size: 74px;
   margin: 16px 0;
 }
 
 .jumbo-img {
   width: 100%;
   padding-left: 32px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .register {
@@ -314,8 +310,12 @@ li {
 }
 
 .price {
-  font-weight: 900;
-}     
+  font-weight: 800;
+}
+
+.hl {
+  margin-top: 40px;
+}
   
 .highlights i {
   color: royalblue;
@@ -339,7 +339,8 @@ li {
 }
 /* Features */
 .features {
-  margin-bottom: 144px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .col-six.function {
@@ -362,12 +363,13 @@ li {
 
 .square .col-four {
   padding: 40px;
-  height: 450px;
+  height: 398px;
 }
 
 .square .col-three {
   position: relative;
-  height: 50%;
+  width: 199px;
+  height: 199px;
 }
 
 .square .col-five img {
@@ -376,20 +378,21 @@ li {
 }
 
 .square .col-four img {
-  width: 25%;
+  width: 20%;
 }
 
-.darkpink {
-  margin-left: 0;
-  font-size: 32px;
-  font-weight: 800;
+.darkpink, .business {
+  font-size: 33px;
+  font-weight: 700;
   text-align: left;
 }
 
 .trial:last-child {
-  padding: 50px 0 50px 50px;
-  text-align: right;
+  padding: 70px 0 0 102px;
+  
 }
+
+
 /* FAQ */
 .frequently {
   margin: 144px 0;
@@ -411,10 +414,6 @@ li {
 
 .appear {
   display: none;
-}
-
-.faq:hover .appear {
-  display: inline-block;
 }
 
 .faq:hover .arrow .fa-angle-down {
